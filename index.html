@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西语过去时：沉浸式语篇专训</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #16a085;
+            padding-bottom: 10px;
+        }
+        .story-container {
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            border-left: 5px solid #16a085;
+        }
+        h2 {
+            color: #16a085;
+            font-size: 1.3em;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .story-text {
+            font-size: 17px;
+            line-height: 2.5;
+        }
+        input[type="text"] {
+            padding: 6px 10px;
+            font-size: 16px;
+            border: 2px solid #bdc3c7;
+            border-radius: 6px;
+            width: 140px;
+            margin: 0 5px;
+            outline: none;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 500;
+        }
+        input[type="text"]:focus {
+            border-color: #16a085;
+            box-shadow: 0 0 8px rgba(22, 160, 133, 0.3);
+        }
+        .correct {
+            background-color: #e8f8f5 !important;
+            border-color: #2ecc71 !important;
+            color: #27ae60;
+        }
+        .incorrect {
+            background-color: #fdedec !important;
+            border-color: #e74c3c !important;
+            color: #c0392b;
+        }
+        .feedback {
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .text-correct { color: #2ecc71; }
+        .text-incorrect { color: #e74c3c; }
+        #submit-btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #16a085;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            transition: background 0.3s, transform 0.1s;
+        }
+        #submit-btn:hover {
+            background-color: #138a72;
+        }
+        #submit-btn:active {
+            transform: scale(0.98);
+        }
+        #result-area {
+            margin-top: -20px;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            display: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .hint {
+            color: #7f8c8d;
+            font-size: 14.5px;
+            margin-bottom: 20px;
+            font-style: italic;
+            background: #fdfefe;
+            padding: 10px;
+            border-radius: 6px;
+        }
+        .q-num {
+            font-size: 13px;
+            color: #95a5a6;
+            vertical-align: super;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📝 综合叙事语篇专训 (50空)</h1>
+    <p style="text-align: center; color: #7f8c8d; margin-bottom: 30px;">
+        在填空前问自己：这是背景状态？突发动作？还是“过去的过去”？
+    </p>
+
+    <!-- 故事 1 -->
+    <div class="story-container">
+        <h2>📖 故事 1：马德里之旅的波折</h2>
+        <div class="hint">🎯 考察重点：天气/情绪背景 (未完成) vs 突发事件 (简过) vs 提前做好的计划 (过完)。</div>
+        <div class="story-text">
+            El año pasado, mi mejor amiga y yo <span class="q-num">1</span><input type="text" data-answer="decidimos"> <span class="feedback"></span> (decidir) visitar Madrid. El día de nuestro vuelo, <span class="q-num">2</span><input type="text" data-answer="hacía"> <span class="feedback"></span> (hacer) mucho frío y <span class="q-num">3</span><input type="text" data-answer="llovía"> <span class="feedback"></span> (llover). Mientras nosotras <span class="q-num">4</span><input type="text" data-answer="esperábamos"> <span class="feedback"></span> (esperar) en el aeropuerto, el altavoz de repente <span class="q-num">5</span><input type="text" data-answer="anunció"> <span class="feedback"></span> (anunciar) que nuestro vuelo se <span class="q-num">6</span><input type="text" data-answer="había cancelado"> <span class="feedback"></span> (cancelar). Nosotras nos <span class="q-num">7</span><input type="text" data-answer="pusimos"> <span class="feedback"></span> (poner) muy tristes porque <span class="q-num">8</span><input type="text" data-answer="habíamos planeado"> <span class="feedback"></span> (planear) este viaje durante meses. Al final, <span class="q-num">9</span><input type="text" data-answer="tuvimos"> <span class="feedback"></span> (tener) que tomar un tren. Cuando <span class="q-num">10</span><input type="text" data-answer="llegamos"> <span class="feedback"></span> (llegar) a Madrid, ya <span class="q-num">11</span><input type="text" data-answer="era"> <span class="feedback"></span> (ser) de noche, pero la ciudad <span class="q-num">12</span><input type="text" data-answer="estaba"> <span class="feedback"></span> (estar) preciosa.
+        </div>
+    </div>
+
+    <!-- 故事 2 -->
+    <div class="story-container">
+        <h2>📖 故事 2：流浪狗“好运”</h2>
+        <div class="hint">🎯 考察重点：正字法拼写变化 (yo变位) 以及 y 变化。</div>
+        <div class="story-text">
+            Una tarde, mientras yo <span class="q-num">13</span><input type="text" data-answer="leía"> <span class="feedback"></span> (leer) un libro en el parque, <span class="q-num">14</span><input type="text" data-answer="escuché"> <span class="feedback"></span> (escuchar) un ruido extraño. De repente, un perro pequeño <span class="q-num">15</span><input type="text" data-answer="apareció"> <span class="feedback"></span> (aparecer) detrás de un árbol. El animal <span class="q-num">16</span><input type="text" data-answer="estaba"> <span class="feedback"></span> (estar) muy sucio y <span class="q-num">17</span><input type="text" data-answer="parecía"> <span class="feedback"></span> (parecer) tener mucha hambre. Yo lo <span class="q-num">18</span><input type="text" data-answer="llamé"> <span class="feedback"></span> (llamar), pero él <span class="q-num">19</span><input type="text" data-answer="huyó"> <span class="feedback"></span> (huir) rápidamente por el miedo. Yo me levanté y lo <span class="q-num">20</span><input type="text" data-answer="busqué"> <span class="feedback"></span> (buscar) por todas partes. Por fin lo <span class="q-num">21</span><input type="text" data-answer="encontré"> <span class="feedback"></span> (encontrar) escondido debajo de un banco. Alguien lo <span class="q-num">22</span><input type="text" data-answer="había abandonado"> <span class="feedback"></span> (abandonar). Me lo <span class="q-num">23</span><input type="text" data-answer="llevé"> <span class="feedback"></span> (llevar) a casa, lo lavé y lo <span class="q-num">24</span><input type="text" data-answer="llamé"> <span class="feedback"></span> (llamar) "Suerte".
+        </div>
+    </div>
+
+    <!-- 故事 3 -->
+    <div class="story-container">
+        <h2>📖 故事 3：迟到的西语考试</h2>
+        <div class="hint">🎯 考察重点：连续的动作链 (简过) 遇到已经发生的背景 (过完)。注意 e->i 的变位。</div>
+        <div class="story-text">
+            Ayer <span class="q-num">25</span><input type="text" data-answer="fue"> <span class="feedback"></span> (ser) un día horrible. Por la mañana, mi despertador no <span class="q-num">26</span><input type="text" data-answer="sonó"> <span class="feedback"></span> (sonar) porque yo <span class="q-num">27</span><input type="text" data-answer="había olvidado"> <span class="feedback"></span> (olvidar) cargarlo. Cuando me <span class="q-num">28</span><input type="text" data-answer="desperté"> <span class="feedback"></span> (despertar), ya <span class="q-num">29</span><input type="text" data-answer="eran"> <span class="feedback"></span> (ser) las ocho y media. Yo me <span class="q-num">30</span><input type="text" data-answer="vestí"> <span class="feedback"></span> (vestir) en cinco minutos y <span class="q-num">31</span><input type="text" data-answer="salí"> <span class="feedback"></span> (salir) corriendo de casa. Mientras yo <span class="q-num">32</span><input type="text" data-answer="corría"> <span class="feedback"></span> (correr) hacia la escuela, de repente <span class="q-num">33</span><input type="text" data-answer="empezó"> <span class="feedback"></span> (empezar) a llover a cántaros. Cuando por fin <span class="q-num">34</span><input type="text" data-answer="llegué"> <span class="feedback"></span> (llegar) al aula, mis compañeros ya <span class="q-num">35</span><input type="text" data-answer="habían empezado"> <span class="feedback"></span> (empezar) el examen de español. El profesor me <span class="q-num">36</span><input type="text" data-answer="miró"> <span class="feedback"></span> (mirar) y me <span class="q-num">37</span><input type="text" data-answer="dijo"> <span class="feedback"></span> (decir): "Llegas tarde". Yo me <span class="q-num">38</span><input type="text" data-answer="sentí"> <span class="feedback"></span> (sentir) muy avergonzado.
+        </div>
+    </div>
+
+    <!-- 故事 4 -->
+    <div class="story-container">
+        <h2>📖 故事 4：蛋糕去哪儿了？</h2>
+        <div class="hint">🎯 考察重点：强不规则动词 (hacer, poner, querer, tener) 及其分词形态。</div>
+        <div class="story-text">
+            El domingo pasado, mi madre <span class="q-num">39</span><input type="text" data-answer="hizo"> <span class="feedback"></span> (hacer) un pastel delicioso. Ella lo <span class="q-num">40</span><input type="text" data-answer="puso"> <span class="feedback"></span> (poner) en la mesa de la cocina. A las cuatro de la tarde, yo <span class="q-num">41</span><input type="text" data-answer="fui"> <span class="feedback"></span> (ir) a la cocina porque <span class="q-num">42</span><input type="text" data-answer="quería"> <span class="feedback"></span> (querer) comer un trozo. Pero, ¡el pastel no <span class="q-num">43</span><input type="text" data-answer="estaba"> <span class="feedback"></span> (estar) allí! Alguien se lo <span class="q-num">44</span><input type="text" data-answer="había comido"> <span class="feedback"></span> (comer). En ese preciso momento, mi hermano menor <span class="q-num">45</span><input type="text" data-answer="entró"> <span class="feedback"></span> (entrar) en la cocina. Él <span class="q-num">46</span><input type="text" data-answer="tenía"> <span class="feedback"></span> (tener) chocolate en la cara y <span class="q-num">47</span><input type="text" data-answer="sonreía"> <span class="feedback"></span> (sonreír). Yo le <span class="q-num">48</span><input type="text" data-answer="pregunté"> <span class="feedback"></span> (preguntar) qué <span class="q-num">49</span><input type="text" data-answer="había hecho"> <span class="feedback"></span> (hacer) con el pastel, y él, al escucharme, <span class="q-num">50</span><input type="text" data-answer="empezó"> <span class="feedback"></span> (empezar) a llorar falsamente.
+        </div>
+    </div>
+
+    <button id="submit-btn" onclick="checkAnswers()">🚀 提交批改 (0/50)</button>
+    <div id="result-area"></div>
+
+    <script>
+        document.querySelectorAll('input[type="text"]').forEach(input => {
+            input.addEventListener('input', function() {
+                this.classList.remove('correct', 'incorrect');
+                this.nextElementSibling.innerHTML = '';
+            });
+        });
+
+        function checkAnswers() {
+            const inputs = document.querySelectorAll('input[type="text"]');
+            let score = 0;
+            const total = inputs.length;
+
+            inputs.forEach(input => {
+                const userAnswer = input.value.trim().toLowerCase();
+                const correctAnswers = input.getAttribute('data-answer').toLowerCase().split('|');
+                const feedbackSpan = input.nextElementSibling;
+
+                if (userAnswer === "") {
+                    input.className = 'incorrect';
+                    feedbackSpan.innerHTML = `❌ <span class="text-incorrect">${correctAnswers[0]}</span>`;
+                    feedbackSpan.className = 'feedback text-incorrect';
+                } else if (correctAnswers.includes(userAnswer)) {
+                    input.className = 'correct';
+                    feedbackSpan.innerHTML = '✅';
+                    feedbackSpan.className = 'feedback text-correct';
+                    score++;
+                } else {
+                    input.className = 'incorrect';
+                    feedbackSpan.innerHTML = `❌ <span class="text-incorrect">${correctAnswers[0]}</span>`;
+                    feedbackSpan.className = 'feedback text-incorrect';
+                }
+            });
+
+            const resultArea = document.getElementById('result-area');
+            resultArea.style.display = 'block';
+            
+            const percentage = Math.round((score / total) * 100);
+            document.getElementById('submit-btn').innerText = `🔄 重新批改 (${score}/${total})`;
+
+            if (percentage === 100) {
+                resultArea.style.backgroundColor = '#d4edda';
+                resultArea.style.color = '#155724';
+                resultArea.innerHTML = `🎉 太精彩了！全对通过 (${score}/${total})！你的语感已经非常清晰了！`;
+            } else if (percentage >= 85) {
+                resultArea.style.backgroundColor = '#fff3cd';
+                resultArea.style.color = '#856404';
+                resultArea.innerHTML = `👍 逻辑非常棒！得分: ${score}/${total}。只差一点点，注意看红字解析自己哪里手滑了。`;
+            } else {
+                resultArea.style.backgroundColor = '#ffebee';
+                resultArea.style.color = '#c62828';
+                resultArea.innerHTML = `💪 别灰心！得分: ${score}/${total}。把做错的词组（动词+变位）大声读三遍培养语感。`;
+            }
+            
+            resultArea.scrollIntoView({ behavior: 'smooth', block: 'end' });
+        }
+    </script>
+</body>
+</html>
